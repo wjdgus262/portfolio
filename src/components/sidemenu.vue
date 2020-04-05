@@ -1,12 +1,13 @@
 <template>
-  <div class="hello">
-    
+  <div class="slidmenu">
+    <header>
+    </header>
   </div>
 </template>
 
 <script>
 export default {
-  name: 'HelloWorld',
+  name: 'SideMenu',
   props: {  
     msg: String
   }
@@ -28,5 +29,10 @@ li {
 }
 a {
   color: #42b983;
+}
+header{
+    padding:20px;
+    background:black;
+    height:100%
 }
 </style>
